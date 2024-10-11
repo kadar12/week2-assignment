@@ -55,7 +55,33 @@ for (let i = 0; i < images.length; i++) {
   img.addEventListener("click", function () {
     displayImage.src = images[i].src;
     displayImage.alt = images[i].alt;
+    imgIndex = i;
   });
 
   thumbnailContainer.appendChild(img);
 }
+
+document.addEventListener("keydown", function (event) {
+  console.log(event);
+  if (event.key === "ArrowDown") {
+    imgIndex++;
+    if (imgIndex === images.length) {
+      imgIndex = 0;
+    }
+    displayImage.src = images[imgIndex].src;
+    displayImage.alt = images[imgIndex].alt;
+  }
+});
+
+document.addEventListener("keyup", function (event) {
+  console.log(event);
+  if (event.key === "ArrowUp") {
+    imgIndex--;
+    if (imgIndex === images.length) {
+      imgIndex = 0;
+    }
+  }
+
+  displayImage.src = images[imgIndex].src;
+  displayImage.alt = images[imgIndex].alt;
+});

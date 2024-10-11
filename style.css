@@ -1,12 +1,25 @@
+#thumnail-container {
+  display: flex;
+  justify-content: center;
+}
+
 #thumbnail-container img {
+  display: flex;
   width: 20vh;
   object-fit: cover;
   cursor: pointer;
   position: relative;
+  z-index: 900;
+  margin: 1%;
+  padding: 1%;
 }
 
 #display-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
   width: 100%;
   margin: auto;
-  display: flex;
+  z-index: 0;
 }
