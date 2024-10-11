@@ -1,0 +1,12 @@
+#thumbnail-container img {
+  width: 20vh;
+  object-fit: cover;
+  cursor: pointer;
+  position: relative;
+}
+
+#display-image {
+  width: 100%;
+  margin: auto;
+  display: flex;
+}
