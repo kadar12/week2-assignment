@@ -5,15 +5,15 @@ let imgIndex = 0;
 
 const images = [
   {
-    src: "https://cdn.britannica.com/59/153459-050-BC7B5FD8/Herd-zebras-Kenya-Maasai-Mara-National-Reserve.jpg",
+    src: "https://cdn.pixabay.com/photo/2022/06/02/19/25/giraffes-7238815_1280.jpg",
     alt: "Kenya1  ",
   },
   {
-    src: "https://ik.imagekit.io/aventure/wp-content/uploads/Elephants-and-Kilimanjaro-for-AV.jpeg",
+    src: "https://www.kenyatourism.in/images/elephant-in-maasai-mara-kenya.jpg",
     alt: "Kenya2",
   },
   {
-    src: "https://grownuptravel.co/wp-content/uploads/2024/01/randy-fath-osXl4JI3vcQ-unsplash-e1704195320116.jpg",
+    src: "https://images8.alphacoders.com/375/thumb-1920-375752.jpg",
     alt: "Kenya3",
   },
   {
@@ -22,7 +22,7 @@ const images = [
   },
 
   {
-    src: "https://www.coxandkings.co.uk/-/media/cox-and-kings/images/tours/destinations/africa/kenya/highlights-of-kenya/header.jpg?w=1920&h=940",
+    src: "https://cdn.pixabay.com/photo/2022/06/10/05/32/african-elephant-7253752_1280.jpg",
     alt: "Kenya5",
   },
 
@@ -32,17 +32,13 @@ const images = [
   },
 
   {
-    src: "https://content.tui.co.uk/adamtui/2022_5/24_10/5f360450-9dbc-49ad-aaad-ae9f00a812ab/ACC_952036_shutterstock_1064604671WebOriginalCompressed.jpg?i10c=img.resize(width:1080);img.crop(width:1080%2Cheight:608)",
+    src: "https://cdn.pixabay.com/photo/2023/08/05/16/25/elephants-8171393_1280.jpg",
     alt: "Kenya6",
   },
 
   {
     src: "https://www.abercrombiekent.co.uk/-/media/abercrombieandkent/images/page-header-images/africa/kenya/kenya__0000_kenya-masai-mara-lion.jpg?w=1920&h=940",
     alt: "Kenya7",
-  },
-  {
-    src: "https://i.natgeofe.com/n/6c119232-038e-4e6b-8e77-dd8b8641a625/mount-kenya_16x9.jpg?w=1200",
-    alt: "kenya8",
   },
 ];
 

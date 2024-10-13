@@ -23,3 +23,9 @@
   margin: auto;
   z-index: 0;
 }
+
+@media (max-width: 800px) {
+  #thumbnail-container {
+    top: 10px;
+  }
+}
