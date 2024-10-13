@@ -24,8 +24,9 @@
   z-index: 0;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 600px) {
   #thumbnail-container {
-    top: 10px;
+    float: none;
+    width: 100%;
   }
 }
